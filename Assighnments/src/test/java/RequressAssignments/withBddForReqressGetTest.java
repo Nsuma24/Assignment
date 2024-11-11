@@ -21,10 +21,11 @@ public class withBddForReqressGetTest {
 	given()
 	  .contentType(ContentType.JSON)
 	  .body(jsonObj.toJSONString())
-	.when()
+	//.when()
 	  .post("https://reqres.in/api/users")
 	.then()
 	 .assertThat().statusCode(201)
+	 
 	 .log().all();
 	
 	

@@ -2,7 +2,6 @@ package pojoClassUtilityforShoppers;
 
 public class ShopperAddressPojo {
 	
-	public class ShopperAddressPojo {
 		
 		private int addressId;
 	    private String buildingInfo;
